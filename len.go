@@ -8,8 +8,8 @@ import (
 func CalcLen(value interface{}) int {
 	var n int
 	switch v := value.(type) {
-	case Value:
-		n = v.Len()
+	// case Value:
+	// 	n = v.Len()
 	case string:
 		if runtime.GOARCH == "amd64" {
 			n = 16 + len(v)

@@ -1,5 +1,5 @@
 package cache
 
-type Value interface {
-	Len() int
-}
+// type Value interface {
+// 	Len() int
+// }
